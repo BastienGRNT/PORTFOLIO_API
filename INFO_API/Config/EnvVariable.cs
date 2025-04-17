@@ -6,7 +6,7 @@ public class EnvVariable
     public static string environment { get; } = DotNetEnv.Env.GetString("ENVIRONMENT");
     public static int portHttp { get; } = DotNetEnv.Env.GetInt("HTTP_PORT");
     public static int portHttps { get; } = DotNetEnv.Env.GetInt("HTTPS_PORT");
-    public static string pathCertPem { get; } = DotNetEnv.Env.GetString("PATCH_CERT_PEM");
+    public static string pathCertPem { get; } = DotNetEnv.Env.GetString("PATH_CERT_PEM");
     public static string pathKeyPem { get; } = DotNetEnv.Env.GetString("PATH_KEY_PEM");
     public static string bddUrl { get; } = DotNetEnv.Env.GetString("DATABASE_URL");
 }
